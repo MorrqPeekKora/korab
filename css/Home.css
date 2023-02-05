@@ -1,0 +1,846 @@
+body {
+    background-color: antiquewhite;
+}
+
+
+
+header {
+    min-height: 110px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: rgb(246, 223, 192);
+    top: 0;
+    max-width: 100%;
+    transition: all .3s ease;
+    box-shadow: 0 1px 25px rgba(0, 0, 0, .1);
+}
+
+header::-webkit-scrollbar {
+    max-width: 0px;
+}
+
+
+
+#header.hide {
+    top: -120px;
+}
+
+#background-first {
+    background: linear-gradient(-225deg, rgba(0, 101, 168, 0.6) 0%, rgba(0, 36, 61, 0.6) 50%), url(../images/food.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    align-items: center;
+    min-height: 800px;
+}
+
+.km-home,
+.km-foods,
+.km-desserts,
+.km-contact,
+.km-log {
+    text-decoration: none;
+    border: none;
+    display: inline-table;
+    margin-top: 35px;
+    font-size: 17px;
+    margin-left: -1px;
+    background-color: transparent;
+}
+
+
+.km-sign {
+    background-color: orangered;
+    border-radius: 10px;
+    min-height: 30px;
+    color: white;
+    max-width: 80px;
+    border: none;
+}
+
+.km-buttons {
+    position: absolute;
+    left: 700px;
+}
+
+.km-home:hover,
+.km-foods:hover,
+.km-desserts:hover,
+.km-contact:hover,
+.km-log:hover {
+    background: linear-gradient(-225deg, rgba(1, 71, 177, 0.842) 0%, rgb(54, 141, 255) 50%);
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    min-height: 30px;
+    max-width: 75px;
+    cursor: pointer;
+}
+
+.km-sign:hover {
+    background-color: rgb(200, 65, 16);
+}
+
+.km-home:active,
+.km-foods:active,
+.km-desserts:active,
+.km-contact:active,
+.km-log:active {
+    color: white;
+    background: linear-gradient(-225deg, rgba(11, 36, 75, 0.842) 0%, rgb(22, 79, 154) 50%);
+    border: none;
+    outline: none;
+}
+
+
+.km-sign:active {
+    background-color: rgb(17, 56, 17);
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+#dark {
+    position: absolute;
+    top: 28px;
+    left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+#dark:hover {
+    background-color: rgb(197, 197, 197);
+    max-width: cover;
+    min-height: cover;
+}
+
+
+#dark:active {
+    background-color: rgb(108, 235, 108);
+}
+
+#moon-icon {
+    max-width: 100%;
+    min-height: 100%;
+    color: #000;
+}
+
+
+
+
+.km-txt-first h1 {
+    color: white;
+    position: absolute;
+    font-size: 70px;
+    left: 7%;
+    top: 50%;
+    animation: color-change 8s infinite;
+    font-weight: bold;
+    font-family: "Righteous", sans-serif;
+}
+
+@keyframes color-change {
+
+    0% {
+        color: rgb(255, 98, 0);
+    }
+
+    25% {
+        color: rgb(0, 255, 94);
+    }
+
+    50% {
+        color: rgb(9, 5, 227);
+    }
+
+    75% {
+        color: rgb(255, 255, 0);
+    }
+
+    100% {
+        color: rgb(255, 98, 0);
+    }
+
+
+}
+
+
+
+.km-foods-search {
+    display: flex;
+    background-color: transparent;
+    position: absolute;
+    top: 800px;
+    left: 7%;
+}
+
+#food-dropdown {
+    margin-left: 20px;
+    border: none;
+    border-radius: 7px;
+    padding-left: 15px;
+    max-width: 250px;
+}
+
+#loca {
+    margin-left: 10px;
+    border: none;
+    border-radius: 7px;
+    padding-left: 15px;
+}
+
+#order {
+    cursor: pointer;
+    font-size: medium;
+    color: #ffffff;
+    max-width: 90px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 9px;
+    min-height: 40px;
+    font-weight: bold;
+    background-color: orangered;
+}
+
+#order:hover {
+    background-color: rgb(200, 65, 16);
+}
+
+#order:active {
+    background-color: rgb(17, 56, 17);
+}
+
+.km-txt-first h2 {
+    position: absolute;
+    top: 702px;
+    left: 9%;
+    color: white;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+}
+
+.km-txt-first p {
+    position: absolute;
+    top: 750px;
+    left: 14%;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+#drinks-dropdown {
+    margin-left: 11px;
+    border: none;
+    border-radius: 7px;
+    padding-left: 15px;
+    max-width: 150px;
+}
+
+
+.km-reason1-img img {
+    max-width: 100%;
+    min-height: 100%;
+    border-radius: 50px;
+}
+
+.km-reason1-img {
+    border: none;
+    border-radius: 50px;
+    max-width: 25%;
+    min-height: 330px;
+    margin-top: 40px;
+    margin-left: 8%;
+}
+
+
+
+.km-background-reason1 {
+    min-height: 380px;
+    display: flex;
+    margin-top: -20px;
+}
+
+.km-reason {
+    border: none;
+    background-color: rgb(232, 232, 232);
+    border-radius: 50px;
+    min-height: 230px;
+    padding: 30px;
+    margin-top: 130px;
+    text-align: center;
+    margin-left: -420px;
+    max-width: 37%;
+}
+
+.km-background-reason1 h2 {
+    margin-left: 220px;
+    margin-top: 50px;
+}
+
+.reason:hover {
+    background-color: rgb(215, 213, 213);
+    cursor: default;
+    transition: 0.4s;
+}
+
+
+.km-about {
+    display: flex;
+}
+
+.km-about1 {
+    max-width: 390px;
+    min-height: 360px;
+    background-color: rgb(232, 232, 232);
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.km-about2 {
+    max-width: 390px;
+    border-radius: 20px;
+    background-color: rgb(232, 232, 232);
+    min-height: 360px;
+    margin-top: 60px;
+    margin-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.km-about3 {
+    max-width: 390px;
+    min-height: 360px;
+    border-radius: 20px;
+    background-color: rgb(232, 232, 232);
+    margin-top: 60px;
+    margin-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+#about {
+    margin-top: 40px;
+    margin-left: 220px;
+}
+
+
+
+.km-about1:hover {
+    background-color: rgb(215, 213, 213);
+    cursor: default;
+    transition: 0.4s;
+}
+
+.km-about2:hover {
+    background-color: rgb(215, 213, 213);
+    cursor: default;
+    transition: 0.4s;
+}
+
+.km-about3:hover {
+    background-color: rgb(215, 213, 213);
+    cursor: default;
+    transition: 0.4s;
+}
+
+hr {
+    background: #000;
+    max-width: 98%;
+    min-height: 0.8px;
+}
+
+footer {
+    min-height: 400px;
+    background-color: rgba(55, 41, 41, 0.821);
+    color: white
+}
+
+
+.km-content {
+    display: flex;
+    border: none;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    color: white;
+    max-width: 92%;
+    min-height: 88%;
+}
+
+.km-content li {
+    list-style-type: circle;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.km-content #footer-contact {
+    margin-left: 300px;
+}
+
+
+#social-links {
+    margin-left: 270px;
+    font-size: larger;
+}
+
+
+footer a {
+    color: white;
+}
+
+
+
+footer a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+
+footer a:active {
+    color: rgb(0, 73, 220);
+}
+
+::-webkit-scrollbar {
+    max-width: 10px;
+}
+
+/* Background */
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 14%;
+    background: rgb(36, 102, 131);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(22, 53, 66);
+}
+
+
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    #background-first {
+        background: linear-gradient(-225deg, rgba(0, 101, 168, 0.6) 0%, rgba(0, 36, 61, 0.6) 50%), url(../images/food.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        align-items: center;
+        min-height: 400px;
+    }
+
+    header {
+        overflow: hidden;
+    }
+
+
+    .km-home,
+    .km-foods,
+    .km-desserts,
+    .km-contact,
+    .km-log {
+        text-decoration: none;
+        border: none;
+        display: inline-table;
+        margin-top: 35px;
+        font-size: 17px;
+        margin-left: -1px;
+        background-color: transparent;
+    }
+
+
+    .km-sign {
+        border-radius: 10px;
+        min-height: 30px;
+        max-width: 80px;
+        border: none;
+    }
+
+    .km-buttons {
+        position: absolute;
+        left: 700px;
+    }
+
+    .km-txt-first h1 {
+        position: absolute;
+        font-size: 35px;
+        left: 3.5%;
+        top: 15%;
+    }
+
+    .km-txt-first h2 {
+        position: absolute;
+        top: 350px;
+        font-size: 15px;
+        left: 5%;
+        border-bottom: 1px solid;
+        padding-bottom: 5px;
+    }
+
+    .km-txt-first p {
+        position: absolute;
+        top: 380px;
+        left: 8%;
+        font-weight: bold;
+        font-size: 8.5px;
+    }
+
+    #drinks-dropdown {
+        margin-left: 11px;
+        border: none;
+        border-radius: 7px;
+        padding-left: 15px;
+        max-width: 150px;
+    }
+
+
+    .km-reason1-img img {
+        max-width: 100%;
+        min-height: 100%;
+    }
+
+    .km-reason1-img {
+        border-radius: 25px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        max-width: 12.5%;
+        min-height: 105px;
+        margin-top: 20px;
+        margin-left: 4%;
+    }
+
+
+
+    .km-background-reason1 {
+        min-height: 380px;
+        display: flex;
+        margin-top: -18px;
+    }
+
+    .km-reason {
+        min-height: 230px;
+        padding: 30px;
+        margin-top: 130px;
+        text-align: center;
+        margin-left: -265px;
+        max-width: 390px;
+    }
+
+    .km-background-reason1 h2 {
+        margin-left: 45px;
+        margin-top: 25px;
+        font-size: 22px;
+    }
+
+    .km-about {
+        display: block;
+        margin-left: -10px;
+        margin-top: 30px;
+    }
+
+    .km-about1 {
+        max-width: 390px;
+        min-height: 200px;
+    }
+
+    .km-about2 {
+        max-width: 390px;
+        min-height: 360px;
+
+    }
+
+    .km-about3 {
+        max-width: 390px;
+        min-height: 360px
+    }
+
+    footer {
+        min-height: 250px;
+        font-size: 8.5px;
+    }
+
+    footer h3 {
+        font-size: medium;
+    }
+
+    .km-content {
+        display: flex;
+        position: relative;
+        top: 25px;
+        left: 25px;
+        max-width: 45.4%;
+        min-height: 44%;
+    }
+
+    .km-content li {
+        list-style-type: circle;
+        margin-top: 20px;
+        margin-left: 2px;
+    }
+
+
+    .km-content #footer-contact {
+        margin-left: 15px;
+    }
+
+    #social-links {
+        margin-left: 60px;
+    }
+
+
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+
+    #background-first {
+        background: linear-gradient(-225deg, rgba(0, 101, 168, 0.6) 0%, rgba(0, 36, 61, 0.6) 50%), url(../images/food.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        align-items: center;
+        min-height: 400px;
+    }
+
+    #dark {
+        position: absolute;
+        top: 28px;
+        left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+
+    .km-home,
+    .km-foods,
+    .km-desserts,
+    .km-contact,
+    .km-log {
+        display: flex;
+        margin-top: 35px;
+        font-size: 9px;
+        background-color: transparent;
+    }
+
+
+
+    
+
+
+    .km-home:hover,
+    .km-foods:hover,
+    .km-desserts:hover,
+    .km-contact:hover,
+    .km-log:hover {
+        background: linear-gradient(-225deg, rgba(1, 71, 177, 0.842) 0%, rgb(54, 141, 255) 50%);
+        text-decoration: none;
+        min-height: 10px;
+        max-width: 75px;
+        cursor: pointer;
+    }
+
+
+    .km-sign {
+        border-radius: 10px;
+        font-size: 9px;
+        min-height: 5px;
+        max-width: 40px;
+    }
+
+    .km-buttons {
+        position: absolute;
+        left: 700px;
+    }
+
+    .km-txt-first h1 {
+        position: absolute;
+        font-size: 35px;
+        left: 3.5%;
+        top: 25%;
+    }
+
+    .km-txt-first h2 {
+        position: absolute;
+        top: 350px;
+        font-size: 15px;
+        left: 5%;
+        border-bottom: 1px solid;
+        padding-bottom: 5px;
+    }
+
+    .km-txt-first p {
+        position: absolute;
+        top: 380px;
+        left: 8%;
+        font-weight: bold;
+        font-size: 8.5px;
+    }
+
+    
+.km-foods-search {
+    display: flex;
+    background-color: transparent;
+    position: absolute;
+    top: 400px;
+    left: 3%;
+}
+
+#food-dropdown {
+    margin-left: 10px;
+    padding-left: 15px;
+    max-width: 110px;
+}
+
+#loca {
+    margin-left: 10px;
+    max-width: 140px;
+    padding-left: 15px;
+}
+
+#order {
+    cursor: pointer;
+    font-size: medium;
+    max-width: 90px;
+    margin-left: 10px;
+    min-height: 40px;
+}
+
+    #drinks-dropdown {
+        margin-left: 11px;
+        border: none;
+        border-radius: 7px;
+        padding-left: 15px;
+        max-width: 150px;
+    }
+
+
+    .km-reason1-img img {
+        max-width: 100%;
+        min-height: 100%;
+    }
+
+    .km-reason1-img {
+        border-radius: 25px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        max-width: 12.5%;
+        min-height: 105px;
+        margin-top: 20px;
+        margin-left: 4%;
+    }
+
+
+
+    .km-background-reason1 {
+        min-height: 380px;
+        display: flex;
+        margin-top: -18px;
+    }
+
+    .km-reason {
+        min-height: 180px;
+        padding: 30px;
+        margin-top: 130px;
+        text-align: center;
+        margin-left: -265px;
+        max-width: 320px;
+    }
+
+    .km-background-reason1 h2 {
+        margin-left: 45px;
+        margin-top: 25px;
+        font-size: 22px;
+    }
+
+    #about {
+        margin-left: 60px;
+    }
+
+    .km-about {
+        display: block;
+        margin-left: -10px;
+        margin-top: 30px;
+    }
+
+    .km-about1 {
+        max-width: 390px;
+        min-height: 200px;
+    }
+
+    .km-about2 {
+        max-width: 390px;
+        min-height: 360px;
+
+    }
+
+    .km-about3 {
+        max-width: 390px;
+        min-height: 360px
+    }
+
+    footer {
+        min-height: 250px;
+        font-size: 8.5px;
+    }
+
+    footer h3 {
+        font-size: medium;
+    }
+
+    .km-content {
+        display: flex;
+        position: relative;
+        top: 25px;
+        gap: 3em;
+        left: 25px;
+        max-width: 45.4%;
+        min-height: 44%;
+    }
+
+    .km-content li {
+        list-style-type: circle;
+        margin-top: 20px;
+        margin-left: 2px;
+    }
+
+
+    .km-content #footer-contact {
+        margin-left: 15px;
+    }
+
+    #social-links {
+        margin-left: 30px;
+    }
+
+}

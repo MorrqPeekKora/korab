@@ -1,0 +1,255 @@
+.dark-mode header {
+    color: #ffffff;
+    background-color: rgb(7, 10, 59);
+}
+
+
+.dark-mode {
+    background-color: rgb(10, 13, 53);
+    transition: 0.2s;
+    color: white;
+}
+
+
+.dark-mode .km-home {
+    background-color: transparent;
+    color: white;
+    transition: 2s;
+    border-radius: 10px;
+}
+
+.dark-mode .km-foods {
+    background-color: transparent;
+    color: white;
+    transition: 2s;
+    border-radius: 10px;
+}
+
+
+.dark-mode .km-desserts {
+    background-color: transparent;
+    color: white;
+    transition: 2s;
+    border-radius: 10px;
+}
+
+
+.dark-mode .km-log {
+    background-color: transparent;
+    color: white;
+    transition: 2s;
+    border-radius: 10px;
+}
+
+
+
+.dark-mode .km-sign {
+    background-color: rgb(5, 96, 32);
+    color: white;
+    transition: 2s;
+    border-radius: 10px;
+}
+
+
+
+
+.dark-mode .km-contact {
+    background-color: transparent;
+    color: white;
+    transition: 2s;
+    border-radius: 10px;
+}
+
+
+.dark-mode .background-reason2 {
+    background-color: rgb(7, 12, 66);
+    border-top: 3px solid;
+}
+
+.dark-mode .km-about1 {
+    background-color: rgb(17, 6, 77);
+}
+
+
+.dark-mode .km-about2 {
+    background-color: rgb(17, 6, 77);
+}
+
+
+.dark-mode .km-about3 {
+    background-color: rgb(17, 6, 77);
+}
+
+.dark-mode hr {
+    background-color: #ffffff;
+}
+
+.dark-mode footer {
+    background-color: rgb(26, 26, 26);
+}
+
+.dark-mode section {
+    background-color: rgb(74, 74, 74);
+}
+
+.dark-mode #products {
+    background-color: rgb(7, 12, 66);
+}
+
+.dark-mode #background-third h1 {
+    position: absolute;
+    top: 140px;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 0 rgb(17, 6, 77);
+    left: 420px;
+    color: rgb(17, 6, 77);
+    border: 3px solid;
+    transition: color .45s ease-in-out, box-shadow .45s ease-in-out;
+    padding: 15px;
+}
+
+
+.dark-mode #background-third h1:hover {
+    color: white;
+    border-color: rgb(17, 6, 77);
+    box-shadow: inset 600px 0px 0px 0px rgb(17, 6, 77);
+    cursor: default;
+}
+
+.dark-mode #background-third h2 {
+    position: absolute;
+    border: none;
+    top: 320px;
+    font-size: 80px;
+    left: 630px;
+    color: rgb(17, 6, 77);
+    transition: 1s;
+}
+
+.dark-mode .oreocake {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .bananacp {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .cupcakes {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .doughnuts {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .chocolate {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .maraschino {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .truffles {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .rafaelo {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .creamsand {
+    background: rgb(9, 5, 34);
+}
+
+
+.dark-mode .classicburger {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .cheeseburger {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .chickenburger {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .turkeyburger {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .doubleburger {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .margarita {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .pepperoni {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .ham {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .mexican {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .cheese {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .wings {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .legs {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .roastedchick {
+    background: rgb(9, 5, 34);
+}
+
+.dark-mode .chbreasts {
+    background: rgb(9, 5, 34);
+}
+
+
+.dark-mode #background-second h1 {
+    position: absolute;
+    top: 400px;
+    box-shadow: inset 0 0 0 0 rgb(17, 6, 77);
+    left: 400px;
+    color: rgb(17, 6, 77);
+    font-weight: bold;
+    border: 3px solid;
+    transition: color .45s ease-in-out, box-shadow .45s ease-in-out;
+    padding: 15px;
+}
+
+
+
+.dark-mode #background-second h1:hover {
+    color: white;
+    border-color: rgb(17, 6, 77);
+    box-shadow: inset 600px 0px 0px 0px  rgb(17, 6, 77);
+    cursor: default;
+}
+
+.dark-mode #background-second h2 {
+    position: absolute;
+    top: 500px;
+    font-size: 80px;
+    left: 630px;
+    color: rgb(17, 6, 77);
+    transition: 1s;
+}
+
+.dark-mode .km-reason {
+    background-color: rgb(17, 6, 77);
+}

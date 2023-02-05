@@ -1,0 +1,765 @@
+body {
+    background-color: antiquewhite;
+}
+
+#background-second {
+    background: linear-gradient(-225deg, rgba(0, 0, 0, 0.6) 0%, rgba(8, 10, 11, 0.6) 50%), url(../images/products.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -270px;
+    border: none;
+    align-items: center;
+    height: 800px;
+}
+
+#background-second h1 {
+    position: absolute;
+    top: 400px;
+    box-shadow: inset 0 0 0 0 white;
+    left: 400px;
+    color: white;
+    border: 2px solid;
+    transition: color .45s ease-in-out, box-shadow .45s ease-in-out;
+    padding: 15px;
+}
+
+
+
+#background-second h1:hover {
+    color: black;
+    border-color: white;
+    box-shadow: inset 600px 0px 0px 0px white;
+    cursor: default;
+}
+
+#products {
+    height: 3180px;
+    width: 81%;
+    position: relative;
+    top: -400px;
+    background-color: antiquewhite;
+}
+
+#background-second h2 {
+    position: absolute;
+    top: 500px;
+    font-size: 80px;
+    left: 630px;
+    color: white;
+}
+
+.burgers {
+    margin-left: 10px;
+    background-color: rgb(232, 230, 230);
+    margin-right: 10px;
+    margin-top: 15px;
+    height: 1010px;
+}
+
+
+.burgers h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+.km-first-row {
+    display: flex;
+    margin-top: 70px;
+}
+
+.classicburger {
+    background-color: rgb(193, 193, 193);
+    margin-left: 20px;
+    width: 345px;
+    height: 380px;
+}
+
+
+.classicburger p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.classicburger button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+.classicburger:hover {
+    margin-top: -5px;
+    width: 370px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#classicburger {
+    position: relative;
+    border-radius: 4px;
+    top: -10px;
+    width: 100%;
+    height: 225px;
+}
+
+
+
+.cheeseburger {
+    height: 380px;
+    width: 345px;
+    background-color: rgb(193, 193, 193);
+    margin-left: 35px;
+}
+
+.cheeseburger p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.cheeseburger button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+
+.cheeseburger:hover {
+    margin-top: -10px;
+    width: 370px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#cheeseburger {
+    position: relative;
+    border-radius: 4px;
+    left: 2px;
+    height: 225px;
+    width: 97%;
+    top: -7px;
+
+}
+
+.chickenburger {
+    height: 380px;
+    background-color: rgb(193, 193, 193);
+    width: 345px;
+    margin-left: 35px;
+    margin-right: 20px;
+}
+
+.chickenburger p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.chickenburger button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+.chickenburger:hover {
+    margin-top: -10px;
+    width: 370px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#chickenburger {
+    position: relative;
+    border-radius: 4px;
+    height: 200px;
+    left: -10px;
+    width: 107%;
+    top: 4px;
+}
+
+.km-second-row {
+    display: flex;
+}
+
+.turkeyburger {
+    background-color: rgb(193, 193, 193);
+    margin-left: 20px;
+    width: 303px;
+    height: 380px;
+}
+
+
+.turkeyburger p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.turkeyburger button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+
+
+.turkeyburger:hover {
+    margin-top: -10px;
+    width: 315px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#turkeyburger {
+    position: relative;
+    border-radius: 4px;
+    top: -10px;
+    width: 100%;
+    height: 225px;
+}
+
+.doubleburger {
+    margin-left: 35px;
+    background-color: rgb(193, 193, 193);
+    width: 303px;
+    height: 380px;
+}
+
+
+.doubleburger p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.doubleburger button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+.doubleburger:hover {
+    margin-top: -10px;
+    width: 315px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#doubleburger {
+    position: relative;
+    border-radius: 4px;
+    top: -10px;
+    width: 100%;
+    height: 225px;
+}
+
+.pizza {
+    margin-left: -15px;
+    background-color: rgb(232, 230, 230);
+    margin-right: 5px;
+    margin-top: 15px;
+    width: 103.2%;
+    height: 1010px;
+}
+
+
+.pizza h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+
+
+.margarita {
+    margin-left: 20px;
+    width: 303px;
+    height: 380px;
+    background-color: rgb(193, 193, 193);
+}
+
+
+.margarita p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.margarita button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+.margarita:hover {
+    margin-top: -5px;
+    width: 315px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#margarita {
+    position: relative;
+    border-radius: 4px;
+    top: -10px;
+    width: 100%;
+    height: 225px;
+}
+
+.ham {
+    margin-left: 35px;
+    width: 303px;
+    background-color: rgb(193, 193, 193);
+    height: 380px;
+}
+
+.ham p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.ham button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+.ham:hover {
+    margin-top: -10px;
+    width: 315px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#ham {
+    position: relative;
+    border-radius: 4px;
+    top: -10px;
+    width: 100%;
+    height: 225px;
+}
+
+
+.pepperoni {
+    margin-left: 35px;
+    background-color: rgb(193, 193, 193);
+    width: 303px;
+    height: 380px;
+}
+
+.pepperoni p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.pepperoni button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+.pepperoni:hover {
+    margin-top: -10px;
+    width: 315px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#pepperoni {
+    position: relative;
+    border-radius: 4px;
+    top: -10px;
+    width: 100%;
+    height: 225px;
+}
+
+
+.mexican {
+    margin-left: 20px;
+    width: 303px;
+    height: 380px;
+    background-color: rgb(193, 193, 193);
+}
+
+
+.mexican p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.mexican button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+
+.mexican:hover {
+    margin-top: -5px;
+    width: 315px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#mexican {
+    position: relative;
+    border-radius: 4px;
+    top: -10px;
+    width: 100%;
+    height: 225px;
+}
+
+
+.cheese {
+    margin-left: 35px;
+    width: 303px;
+    background-color: rgb(193, 193, 193);
+    height: 380px;
+}
+
+
+.cheese p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.cheese button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+.cheese:hover {
+    margin-top: -10px;
+    width: 315px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#cheese {
+    position: relative;
+    border-radius: 4px;
+    top: -10px;
+    width: 100%;
+    height: 225px;
+}
+
+.chicken {
+    margin-left: -15px;
+    background-color: rgb(232, 230, 230);
+    margin-right: 5px;
+    margin-top: 15px;
+    width: 103.2%;
+    height: 1010px;
+}
+
+
+.chicken h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+
+
+.wings {
+    margin-left: 20px;
+    width: 303px;
+    background-color: rgb(193, 193, 193);
+    height: 380px;
+}
+
+.wings p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.wings button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+
+.wings b {
+    position: relative;
+    top: -10px;
+    left: 15px;
+    font-size: large;
+}
+
+.wings:hover {
+    margin-top: -5px;
+    width: 315px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#wings {
+    position: relative;
+    border-radius: 4px;
+    top: -10px;
+    width: 100%;
+    height: 225px;
+}
+
+.roastedchick {
+    background-color: rgb(193, 193, 193);
+    margin-left: 35px;
+    width: 303px;
+    height: 380px;
+}
+
+
+.roastedchick p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.roastedchick button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+
+.roastedchick:hover {
+    margin-top: -10px;
+    width: 315px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#roastedchick {
+    position: relative;
+    border-radius: 4px;
+    top: -10px;
+    width: 100%;
+    height: 225px;
+}
+
+
+.legs {
+    background-color: rgb(193, 193, 193);
+    margin-left: 35px;
+    width: 303px;
+    height: 380px;
+}
+
+
+.legs p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.legs button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+
+.legs b {
+    position: relative;
+    top: -10px;
+    left: 15px;
+    font-size: large;
+}
+
+.legs:hover {
+    margin-top: -10px;
+    width: 315px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#legs {
+    position: relative;
+    border-radius: 4px;
+    top: -10px;
+    width: 100%;
+    height: 225px;
+}
+
+.chbreasts {
+    margin-left: 20px;
+    width: 303px;
+    background-color: rgb(193, 193, 193);
+    height: 380px;
+}
+
+.chbreasts p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.chbreasts button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+
+.chbreasts b {
+    position: relative;
+    top: -10px;
+    left: 15px;
+    font-size: large;
+}
+
+.chbreasts:hover {
+    margin-top: -5px;
+    width: 315px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#chbreasts {
+    position: relative;
+    border-radius: 4px;
+    top: -10px;
+    width: 100%;
+    height: 225px;
+}
+
+
+footer {
+    margin-top: -350px;
+    background-color: rgba(55, 41, 41, 0.821);
+    color: white;
+    height: 500px;
+    border-top: 1px solid;
+}
+
+.km-content {
+    display: flex;
+    border: none;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    color: white;
+    width: 92%;
+    height: 88%;
+}
+
+.km-content li {
+    list-style-type: circle;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.km-content #footer-contact {
+    margin-left: 300px;
+}
+
+
+#social-links {
+    margin-left: 270px;
+    font-size: larger;
+}
+
+
+footer a {
+    color: white;
+}
+
+
+
+footer a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+
+footer a:active {
+    color: rgb(0, 73, 220);
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 20%;
+    background: rgb(36, 102, 131);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(22, 53, 66);
+}
+
+
+
+#dark {
+    position: absolute;
+    top: 320px;
+    left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+#dark:hover {
+    background-color: rgb(197, 197, 197);
+    width: cover;
+    height: cover;
+}
+
+
+#dark:active {
+    background-color: rgb(108, 235, 108);
+}
+
+#moon-icon {
+    width: 100%;
+    height: 100%;
+    color: #000;
+}

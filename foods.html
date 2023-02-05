@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700|Varela+Round:400"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/foods.css">
+    <link rel="stylesheet" href="css/darkmode.css">
+</head>
+
+<body>
+    <div id="background-second">
+        <h1>Order Our Food Down Below </h1>
+        <h2><i class="fa-solid fa-arrow-down-long"></i></h2>
+        <button onclick="myFunction()" id="dark"><i class="fa-solid fa-moon" id="moon-icon"></i></button>
+    </div>
+
+    <div class="container-fluid shadow-lg p-3 mb-5 bg-antiquewhite rounded" id="products">
+        <!--Burger Section begins-->
+
+        <section class="burgers shadow-lg p-3 mb-5 bg-black rounded">
+            <h1> BURGERS</h1>
+            <div class="km-first-row">
+                <div class="classicburger shadow-lg p-3 mb-5 rounded"><img
+                        src="productimages/classicburger.jpg" alt="" id="classicburger"><br><br>
+                    <p>Classic Burger</p>
+                    <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i>
+                    </button> Buy For: 1.50<i class="fa-solid fa-euro-sign"></i>
+                </div>
+                <div class="cheeseburger shadow-lg p-3 mb-5 rounded"><img src="productimages/cheeseburger.jpg"
+                        alt="" id="cheeseburger"><br><br>
+                    <p>Cheese Burger</p>
+                    <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i>
+                    </button> Buy For: 1.80<i class="fa-solid fa-euro-sign"></i>
+                </div>
+                <div class="chickenburger shadow-lg p-3 mb-5 rounded"><img
+                        src="productimages/chickenburger.jpg" alt="" id="chickenburger"><br><br><br>
+                    <p>Chicken Burger</p>
+                    <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i>
+                    </button> Buy For: 2.00<i class="fa-solid fa-euro-sign"></i>
+                </div><br>
+            </div>
+            <div class="km-second-row">
+                <div class="turkeyburger shadow-lg p-3 mb-5 rounded"><img src="productimages/turkeyburger.jpg"
+                        alt="" id="turkeyburger"><br><br>
+                    <p>Turkey Burger</p>
+                    <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i>
+                    </button> Buy For: 2.70<i class="fa-solid fa-euro-sign"></i>
+                </div>
+                <div class="doubleburger shadow-lg p-3 mb-5 rounded"><img src="productimages/doubleburger.jpg"
+                        alt="" id="doubleburger"><br><br>
+                    <p>Double Burger</p>
+                    <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i>
+                    </button> Buy For: 2.30<i class="fa-solid fa-euro-sign"></i>
+                </div>
+            </div>
+            <!--Burger Section ends-->
+
+            <!--Pizza Section begins-->
+            <section class="pizza shadow-lg p-3 mb-5 rounded">
+                <h1>PIZZA</h1>
+                <div class="km-first-row">
+                    <div class="margarita shadow-lg p-3 mb-5 rounded"><img src="productimages/pmargarita.jpg"
+                            alt="" id="margarita"><br><br>
+                        <p>Pizza Margherita</p>
+                        <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i>
+                        </button> Buy For: 2.00<i class="fa-solid fa-euro-sign"></i>
+                    </div>
+                    <div class="ham shadow-lg p-3 mb-5 rounded"><img src="productimages/pham.jpg" alt=""
+                            id="ham"><br><br>
+                        <p>Ham Pizza</p>
+                        <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i>
+                        </button> Buy For: 2.50<i class="fa-solid fa-euro-sign"></i>
+                    </div>
+                    <div class="pepperoni shadow-lg p-3 mb-5 rounded"><img src="productimages/pepperoni.jpg"
+                            alt="" id="pepperoni"><br><br>
+                        <p>Pepperoni Pizza</p>
+                        <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i>
+                        </button> Buy For: 2.50<i class="fa-solid fa-euro-sign"></i>
+                    </div>
+                </div>
+                <div class="km-second-row">
+                    <div class="mexican shadow-lg p-3 mb-5 rounded"><img src="productimages/pmexican.jpg"
+                            alt="" id="mexican"><br><br>
+                        <p>Mexican Pizza</p>
+                        <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i>
+                        </button> Buy For: 3.50<i class="fa-solid fa-euro-sign"></i>
+                    </div>
+                    <div class="cheese shadow-lg p-3 mb-5 rounded"><img src="productimages/cheese.jpg" alt=""
+                            id="cheese"><br><br>
+                        <p>Extra Cheese Pizza</p>
+                        <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i>
+                        </button> Buy For: 3.00<i class="fa-solid fa-euro-sign"></i>
+                    </div>
+                </div>
+            </section>
+
+            <!--Pizza Section ends-->
+
+            <!--Chicken Section begins-->
+
+            <section class="chicken shadow-lg p-3 bg-black rounded">
+                <h1>CHICKEN</h1>
+                <div class="km-first-row">
+                    <div class="wings shadow-lg p-3 mb-5 rounded"><img src="productimages/chickwings.jpeg"
+                            alt="" id="wings">
+                        <p>Roasted Chicken Wings</p>
+                        <b>A 15-teen Piece Meal</b><br>
+                        <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i>
+                        </button> Buy For: 3.75<i class="fa-solid fa-euro-sign"></i>
+                    </div>
+                    <div class="roastedchick shadow-lg p-3 mb-5 rounded"><img
+                            src="productimages/roastedchick.jpg" alt="" id="roastedchick">
+                        <br><br>
+                        <p>Roasted Chicken</p>
+                        <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i>
+                        </button> Buy For: 3.00<i class="fa-solid fa-euro-sign"></i>
+                    </div>
+                    <div class="legs shadow-lg p-3 mb-5  rounded"><img src="productimages/chicklegs.jpg" alt=""
+                            id="legs">
+                        <p>Roasted Chicken Legs</p>
+                        <b>A 13-teen Piece Meal</b><br>
+                        <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i>
+                        </button> Buy For: 3.75<i class="fa-solid fa-euro-sign"></i>
+                    </div>
+                </div>
+                <div class="km-second-row">
+                    <div class="chbreasts shadow-lg p-3 mb-5 rounded"><img src="productimages/chbreasts.jpg"
+                            alt="" id="chbreasts">
+                        <p>Roasted Chicken Breasts</p>
+                        <b>A three Piece Meal</b><br>
+                        <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i>
+                        </button> Buy For: 3.00<i class="fa-solid fa-euro-sign"></i>
+                    </div>
+                </div>
+
+    </div>
+
+    </section>
+
+    </div>
+    <hr>
+</section>
+
+<footer id="footer">
+    <div class="km-content">
+
+        <ul>
+            <h3>Jump To</h3>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="foods.html">Foods</a></li>
+            <li><a href="desserts.html">Desserts</a></li>
+            <li><a href="drinks.html">Drinks</a></li>
+        </ul>
+
+        <ul id="footer-contact">
+            <h3>Contact Us Through</h3>
+            <li>Phone: +38344634584</li>
+            <li>Email: korabmusa1@gmail.com</li>
+
+
+        </ul>
+
+        <ul id="social-links">
+            <h3>Visit Us Here</h3>
+            <li><i class="fa-brands fa-instagram" id="instagram"></i> <a target="_blank"
+                    href="https://www.instagram.com/kor__ab/"> @kor_ab</a></li>
+            <li><i class="fa-brands fa-facebook" id="facebook"></i><a href="https://www.facebook.com/korab.musa.31">
+                    Korab Musa</a></li>
+            <li><i class="fa-brands fa-twitter" id="twitter"></i><a href=""> @abb_kor</a></li>
+        </ul>
+    </div>
+</footer>
+<script src="Homescript.js"></script>
+</body>
+
+</html>

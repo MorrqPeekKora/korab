@@ -1,0 +1,565 @@
+body {
+    background-color: antiquewhite;
+}
+
+#background-third {
+    background: linear-gradient(-225deg, rgba(0, 0, 0, 0.6) 0%, rgba(8, 10, 11, 0.6) 50%), url(../dessertimages/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    text-align: center;
+}
+
+
+#background-third h1 {
+    position: absolute;
+    top: 140px;
+    box-shadow: inset 0 0 0 0 white;
+    left: 420px;
+    color: white;
+    border: 2px solid;
+    transition: color .45s ease-in-out, box-shadow .45s ease-in-out;
+    padding: 15px;
+}
+
+
+
+#background-third h1:hover {
+    color: black;
+    border-color: white;
+    box-shadow: inset 600px 0px 0px 0px white;
+    cursor: default;
+}
+
+#products {
+    height: 1520px;
+    width: 81%;
+    position: relative;
+    top: -200px;
+    background-color: antiquewhite;
+}
+
+#background-third h2 {
+    position: absolute;
+    top: 320px;
+    font-size: 80px;
+    left: 630px;
+    color: white;
+}
+
+.desserts1 {
+    margin-left: 10px;
+    background-color: rgb(243, 239, 239);
+    margin-right: 10px;
+    margin-top: 15px;
+    height: 1450px;
+}
+
+
+.desserts1 h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+.km-first-row {
+    display: flex;
+    margin-top: 70px;
+}
+
+.oreocake {
+    margin-left: 20px;
+    width: 345px;
+    background-color: rgb(193, 193, 193);
+    height: 380px;
+}
+
+
+.oreocake p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.oreocake button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+.oreocake:hover {
+    margin-top: -5px;
+    width: 370px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#oreocake {
+    position: relative;
+    border-radius: 4px;
+    top: -10px;
+    width: 100%;
+    height: 225px;
+}
+
+
+
+.bananacp {
+    height: 380px;
+    width: 345px;
+    background-color: rgb(193, 193, 193);
+    margin-left: 35px;
+}
+
+.bananacp p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.bananacp button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+
+.bananacp:hover {
+    margin-top: -10px;
+    width: 370px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#bananacp {
+    position: relative;
+    border-radius: 4px;
+    left: 2px;
+    height: 225px;
+    width: 97%;
+    top: -7px;
+}
+
+.cupcakes {
+    height: 380px;
+    width: 345px;
+    background-color: rgb(193, 193, 193);
+    margin-left: 35px;
+    margin-right: 20px;
+}
+
+.cupcakes p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.cupcakes button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+.cupcakes:hover {
+    margin-top: -10px;
+    width: 370px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+
+.cupcakes b {
+    position: relative;
+    top: -10px;
+    left: 15px;
+    font-size: large;
+}
+
+
+#cupcakes {
+    position: relative;
+    border-radius: 4px;
+    left: 2px;
+    height: 225px;
+    width: 97%;
+    top: -7px;
+}
+
+
+
+.km-second-row {
+    display: flex;
+}
+
+.doughnuts {
+    margin-left: 20px;
+    width: 303px;
+    height: 380px;
+    background-color: rgb(193, 193, 193);
+}
+
+.doughnuts p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.doughnuts button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+.doughnuts:hover {
+    margin-top: -5px;
+    width: 315px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+
+.doughnuts b {
+    position: relative;
+    top: -10px;
+    left: 15px;
+    font-size: large;
+}
+
+
+#doughnuts {
+    position: relative;
+    border-radius: 4px;
+    top: -10px;
+    width: 100%;
+    height: 225px;
+}
+
+
+
+.chocolate {
+    margin-left: 35px;
+    background-color: rgb(193, 193, 193);
+    width: 303px;
+    height: 380px;
+}
+
+.chocolate p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.chocolate button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+
+.chocolate:hover {
+    margin-top: -10px;
+    width: 315px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#chocolate {
+    position: relative;
+    border-radius: 4px;
+    top: -10px;
+    width: 100%;
+    height: 225px;
+}
+
+
+.rafaelo {
+    margin-left: 35px;
+    width: 303px;
+    background-color: rgb(193, 193, 193);
+    height: 380px;
+}
+
+.rafaelo p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.rafaelo button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+
+.rafaelo:hover {
+    margin-top: -10px;
+    width: 315px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#rafaelo {
+    position: relative;
+    border-radius: 4px;
+    top: -10px;
+    width: 100%;
+    height: 225px;
+}
+
+.km-third-row {
+    display: flex;
+}
+
+.maraschino {
+    margin-left: 20px;
+    width: 303px;
+    height: 380px;
+    background-color: rgb(193, 193, 193);
+}
+
+.maraschino p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.maraschino button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+.maraschino:hover {
+    margin-top: -10px;
+    width: 315px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+
+.maraschino b {
+    position: relative;
+    top: -10px;
+    left: 15px;
+    font-size: large;
+}
+
+
+#maraschino {
+    position: relative;
+    border-radius: 4px;
+    top: -10px;
+    width: 100%;
+    height: 225px;
+}
+
+
+.truffles {
+    margin-left: 35px;
+    width: 303px;
+    background-color: rgb(193, 193, 193);
+    height: 380px;
+}
+
+.truffles p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.truffles button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+
+.truffles b {
+    position: relative;
+    top: -10px;
+    left: 15px;
+    font-size: large;
+}
+
+
+.truffles:hover {
+    margin-top: -10px;
+    width: 315px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#truffles {
+    position: relative;
+    border-radius: 4px;
+    top: -10px;
+    width: 100%;
+    height: 225px;
+}
+
+
+.creamsand {
+    margin-left: 35px;
+    background-color: rgb(193, 193, 193);
+    width: 303px;
+    height: 380px;
+}
+
+.creamsand p {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.creamsand button {
+    border-radius: 35%;
+    background-color: rgb(216, 216, 216);
+    border-color: transparent;
+    color: rgb(11, 35, 76);
+}
+
+
+.creamsand b {
+    position: relative;
+    top: -10px;
+    left: 15px;
+    font-size: large;
+}
+
+
+.creamsand:hover {
+    margin-top: -10px;
+    width: 315px;
+    height: 385px;
+    cursor: default;
+    transition: 0.51s;
+}
+
+#creamsand {
+    position: relative;
+    border-radius: 4px;
+    top: -10px;
+    width: 100%;
+    height: 225px;
+}
+
+footer {
+    margin-top: -150px;
+    background-color: rgba(55, 41, 41, 0.821);
+    color: white;
+    height: 500px;
+    border-top: 1px solid;
+}
+
+.km-content {
+    display: flex;
+    border: none;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    color: white;
+    width: 92%;
+    height: 88%;
+}
+
+.km-content li {
+    list-style-type: circle;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.km-content #footer-contact {
+    margin-left: 300px;
+}
+
+
+#social-links {
+    margin-left: 270px;
+    font-size: larger;
+}
+
+
+footer a {
+    color: white;
+}
+
+
+
+footer a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+
+footer a:active {
+    color: rgb(0, 73, 220);
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 20%;
+    background: rgb(36, 102, 131);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(22, 53, 66);
+}
+
+#dark {
+    position: absolute;
+    top: 28px;
+    left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+#dark:hover {
+    background-color: rgb(197, 197, 197);
+    width: cover;
+    height: cover;
+}
+
+
+#dark:active {
+    background-color: rgb(108, 235, 108);
+}
+
+#moon-icon {
+    width: 100%;
+    height: 100%;
+    color: #000;
+}
